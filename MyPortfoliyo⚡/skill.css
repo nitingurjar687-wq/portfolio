@@ -1,0 +1,135 @@
+/* ===== Reset & Body ===== */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url("skill\ img.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+  color: white;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #ff9800;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+
+}
+
+/* ===== HOBBIES SECTION ===== */
+.hobbies {
+  background: url("🌺 Floral Bedding For A Flowery, Spring Room.jpeg") no-repeat center center/cover;
+  min-height: 100vh;
+  padding: 100px 20px 50px;  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  position: relative;
+}
+
+.hobbies-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 80px;  
+}
+
+
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+}
+
+
+.hobby-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 25px 30px;
+  border-radius: 15px;
+  width: 600px;
+  max-width: 800px;
+  text-align: left;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, filter 0.3s ease;
+  color: white;
+}
+
+.hobby-card:hover {
+  transform: translateY(-8px);
+  filter: brightness(1.1);
+  box-shadow: 0 10px 20px rgb(199, 16, 16);
+
+}
+
+/* Gradient backgrounds */
+.gradient1 { background-image: url(gamin2.jpg); }
+.gradient2 { background-image: url(coding.avif); }
+.gradient3 { background-image: url(spiking.jpg); }
+.gradient4 { background-image: url(spiking.jpg); }
+
+/* Icon styling */
+.hobby-card i {
+  font-size: 80px;
+  flex-shrink: 0;
+}
+
+/* Text inside cards */
+.hobby-text h3 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.hobby-text p {
+  font-size: 15px;
+}
+
+.hobby-text a {
+  color: #222;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hobby-text a:hover {
+  text-decoration: underline;
+}

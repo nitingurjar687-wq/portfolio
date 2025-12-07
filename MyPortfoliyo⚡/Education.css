@@ -1,0 +1,123 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background: rgba(0,0,0,0.7); /* transparent navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color: #ff9800;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+  box-shadow: black;
+}
+
+/* ===== EDUCATION SECTION ===== */
+.education {
+  background: url("education\ img.jpg") no-repeat center center/cover; 
+  min-height: 100vh;
+  padding: 50px 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: relative;
+  color: #fff;
+}
+
+/* Optional overlay for readability */
+.education::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(255, 255, 255, 0.3); /* halka sa white overlay */
+  z-index: 0;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #510a0a;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+}
+
+.edu-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+
+.edu-card {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
+  height: 350px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  text-align: left;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.edu-card:hover {
+  transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgb(252, 253, 249);
+
+  
+}
+
+/* GRADIENTS */
+.gradient1 {
+  background-image: url(bca\ 1.webp);
+  color: rgb(221, 218, 19);
+  
+}
+.gradient3 {
+  background-image: url(12th\ img\ 2.webp);
+  color: rgb(217, 238, 25);
+}
+.gradient4 {
+  background-image: url(10th\ img.webp);
+  color: black;
+}

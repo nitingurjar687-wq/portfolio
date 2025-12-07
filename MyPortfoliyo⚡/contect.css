@@ -1,0 +1,155 @@
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color:  white;
+}
+
+.logo span {
+  color: #ff9800;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  text-align: center;
+  padding: 120px 20px 60px; /* space for navbar */
+  background: url("contect\ img.jpg") no-repeat center center/cover;
+  color: #fff;
+  position: relative;
+  min-height: 100vh;
+}
+
+.contact-section h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+}
+
+.contact-section h2 {
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: #ffeb3b;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+
+.contact-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact-column {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  ;
+}
+
+.contact-card {
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 240px;
+  color: white;
+  font-weight: bold;
+}
+
+.contact-card i {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+
+/* Hover Effect */
+.contact-card:hover {
+  transform: translateY(-6px);
+    box-shadow: 0 10px 20px rgb(239, 243, 238);
+
+}
+
+/* ===== BRAND COLORS ===== */
+.phone {
+  background-image: url(phone.png);
+}
+.phone i { color: #ebf0f1; }
+
+.whatsapp {
+  background-image: url(whatsapp.png);
+  
+
+  
+}
+.whatsapp i { color: #6d6f6d; }
+
+.email {
+  background-image: url(email.webp);
+    background-repeat: no-repeat;
+        background-size: cover;
+
+
+}
+.email i { color: #fff; }
+
+.linkedin {
+  background-image: url(linkdin.jpg);
+
+    background-repeat: no-repeat;
+        background-size: cover;
+
+
+}
+.linkedin i { color: black; }
+
+.github {
+  background-image: url(10th\ img.webp);
+  background-repeat: no-repeat;
+      background-size: cover;
+
+}
+.github i { color: #fff; }
+
+.instagram {
+  background-image: url(insta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.instagram i { color: #fff; }

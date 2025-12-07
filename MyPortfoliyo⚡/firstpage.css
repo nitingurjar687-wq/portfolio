@@ -1,0 +1,144 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f7f7f7;
+  color: #333;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.7); /* transparent navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+
+.logo span {
+  color:darkorange;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #ff9800;
+}
+
+/* ===== HOME SECTION ===== */
+.home {
+  background-image: url(12th\ img\ 2.webp);
+  height: 100vh; /* full screen */
+  background: url("project\ img1.png") no-repeat center center/cover;
+  position: relative;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* add dark overlay for better text visibility */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.home h1, .home h2, .home p {
+  position: relative; /* keep text above overlay */
+  z-index: 1;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.home h1 span {
+  color: darkorange;
+}
+
+.home h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.home h2 span {
+  color: #ff9800;
+}
+
+.home p {
+  font-size: 1.5rem;
+  max-width: 700px;
+  line-height: 1.6;
+  color:rgb(181, 218, 160);
+}
+  .a1{
+
+    margin-top: 130px;
+    margin-right: 1200px;
+    
+  }
+
+    
+.aaaa{
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.btn {
+  margin-top: 70px;
+  width: 80px;
+  height: 20px;
+  background-color: #ebb505;
+  color: rgb(7, 7, 7);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s; 
+  border-radius: 5px;
+}
+
+.btn:hover {
+ transform: translateY(-8px);
+  filter: brightness(1.1);
+  box-shadow: 0 10px 20px rgb(199, 16, 16);
+}

@@ -1,0 +1,30 @@
+
+.hoome{
+    text-align: center;
+    justify-content: center;
+    background-image: url(hoome\ page.jpg);
+    height: 100vh;
+    line-height: 1.5cm;
+
+
+
+}  
+input{
+    text-align: center;
+width: 200px;
+height: 20px;
+border-radius: 6px;
+background-color: rgb(154, 148, 160);
+color: white;
+
+}
+button{
+
+    text-align: center;
+    margin-left: 50px;
+    background-color: rgb(61, 204, 204)   ;
+}
+input::placeholder{
+
+    color: white;
+}
